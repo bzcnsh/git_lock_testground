@@ -1,0 +1,111 @@
+{
+  "version": 4,
+  "terraform_version": "0.12.9",
+  "serial": 3,
+  "lineage": "ed2158e3-ee5e-9f94-0523-0fb9a08d1945",
+  "outputs": {
+    "server5_id": {
+      "value": "5",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "example_server",
+      "name": "my-server",
+      "provider": "provider.example",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "2.3.4.5",
+            "id": "1",
+            "owner": "o1"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "example_server",
+      "name": "my-server2",
+      "provider": "provider.example",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "2.7.4.6",
+            "id": "2",
+            "owner": "o002"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "example_server",
+      "name": "my-server3",
+      "provider": "provider.example",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "2.7.4.6",
+            "id": "3",
+            "owner": "o003"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "example_server",
+      "name": "my-server4",
+      "provider": "provider.example",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "2.7.4.14",
+            "id": "4",
+            "owner": "o004"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "example_server",
+      "name": "my-server5",
+      "provider": "provider.example",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "2.7.4.15",
+            "id": "5",
+            "owner": "o05"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "example_server",
+      "name": "my-server6",
+      "provider": "provider.example",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address": "2.7.4.16",
+            "id": "15",
+            "owner": "o06"
+          },
+          "private": "bnVsbA=="
+        }
+      ]
+    }
+  ]
+}
