@@ -1,11 +1,11 @@
 {
   "version": 4,
   "terraform_version": "0.12.9",
-  "serial": 189,
+  "serial": 190,
   "lineage": "ed2158e3-ee5e-9f94-0523-0fb9a08d1945",
   "outputs": {
-    "server5_id": {
-      "value": "162",
+    "server6_id": {
+      "value": "163",
       "type": "string"
     }
   },
@@ -77,15 +77,15 @@
     {
       "mode": "managed",
       "type": "example_server",
-      "name": "my-server5",
+      "name": "my-server6",
       "provider": "provider.example",
       "instances": [
         {
           "schema_version": 0,
           "attributes": {
-            "address": "2.7.4.15",
-            "id": "162",
-            "owner": "o05"
+            "address": "2.7.4.16",
+            "id": "163",
+            "owner": "o06"
           },
           "private": "bnVsbA=="
         }
