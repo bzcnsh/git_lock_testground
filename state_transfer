@@ -1,15 +1,15 @@
 {
   "version": 4,
   "terraform_version": "0.12.9",
-  "serial": 72,
+  "serial": 73,
   "lineage": "29f848a8-28d9-5c76-09ca-667d8fe03c0a",
   "outputs": {
     "local_file_00_id": {
-      "value": "4f3d0c96357eb750810ed55222afe860c6bc10da",
+      "value": "e54ca21edda22a34fda5a1bdc566d053ed5b0e2a",
       "type": "string"
     },
-    "local_file_01_id": {
-      "value": "4f3d0c96357eb750810ed55222afe860c6bc10da",
+    "local_file_03_id": {
+      "value": "e54ca21edda22a34fda5a1bdc566d053ed5b0e2a",
       "type": "string"
     }
   },
@@ -23,10 +23,10 @@
         {
           "schema_version": 0,
           "attributes": {
-            "content": "2019-09-24T11:59:17Z",
+            "content": "2019-09-24T11:59:26Z",
             "content_base64": null,
             "filename": "/tmp/local_file_test.00",
-            "id": "4f3d0c96357eb750810ed55222afe860c6bc10da",
+            "id": "e54ca21edda22a34fda5a1bdc566d053ed5b0e2a",
             "sensitive_content": null
           },
           "private": "bnVsbA=="
@@ -36,16 +36,16 @@
     {
       "mode": "managed",
       "type": "local_file",
-      "name": "f01",
+      "name": "f03",
       "provider": "provider.local",
       "instances": [
         {
           "schema_version": 0,
           "attributes": {
-            "content": "2019-09-24T11:59:17Z",
+            "content": "2019-09-24T11:59:26Z",
             "content_base64": null,
-            "filename": "/tmp/local_file_test.01",
-            "id": "4f3d0c96357eb750810ed55222afe860c6bc10da",
+            "filename": "/tmp/local_file_test.03",
+            "id": "e54ca21edda22a34fda5a1bdc566d053ed5b0e2a",
             "sensitive_content": null
           },
           "private": "bnVsbA=="
